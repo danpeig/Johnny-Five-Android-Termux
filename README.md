@@ -52,6 +52,9 @@ No. Just use a USB-Serial to TCP bridge app and you are fine.
 * **I can't connect to a TCP server broadcasting in my own WiFi network**
 Please make sure that your Android is not running a VPN or a Firewall.
 
+* **Running out of disk space in the Android device**
+After the installation you can remove the python, clang and make packages.
+
 ## Troubleshooting
 1. Install Node.js in your Laptop/Desktop and run exactly the same installation procedures above.
 2. Run the TCP server (like the COMbyTCP) in the same computer and try to connect between the board and the local installation of this script. If it does not work, you might have a problem with the Firmata installation in the Arduino board.
