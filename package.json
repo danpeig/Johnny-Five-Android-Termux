@@ -1,7 +1,7 @@
 {
   "name": "johnny-five-android-termux",
   "version": "1.0.0",
-  "description": "Johnny-Five TCP Client for Android running Termux. Based on the snippets from Luis Montes.",
+  "description": "Johnny-Five TCP client for Android devices running Termux.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
