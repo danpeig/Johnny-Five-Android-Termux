@@ -1,5 +1,5 @@
 # Johnny-Five-Android-Termux
- Johnny-Five TCP sample script for Android devices running Termux.
+ Johnny-Five TCP script for Android devices running Termux. Works with USB-OTG connected boards.
 
  Based on the code snippets from [Luis Montes](https://github.com/monteslu).
 
