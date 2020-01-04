@@ -44,7 +44,10 @@ Node-Red, the ultimate IoT interface can be run from Termux and the following [t
 
 ## FAQ
 * **What is the default baud rate for Firmata?**
-Start with 57600bps and then increase/decrease if necessary.
+The default value is 57600bps.
+
+* **I only get the message "Connected to server" and nothing else**
+Please check the baud rate of the server. It should be set for 57600bps.
 
 * **Do I need to root my Android device in order to access the Arduino board using USB?**
 No. Just use a USB-Serial to TCP bridge app and you are fine.
