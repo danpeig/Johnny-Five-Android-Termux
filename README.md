@@ -40,7 +40,7 @@
  6. Test the script running *node index.js* from the same directory.
 
 ## Node-Red integration
-Node-Red, the ultimate IoT interface can be run from Termux and the following [tutorial in my web page](https://www.danbp.org) explains how to make use of Johnny-Five library in this framework.
+Node-Red, the ultimate IoT interface can be run from Termux and the following [tutorial in my web page](https://www.danbp.org/p/en/node/141) explains how to make use of Johnny-Five library in this framework.
 
 ## FAQ
 * **What is the default baud rate for Firmata?**
