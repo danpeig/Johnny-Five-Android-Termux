@@ -13,6 +13,8 @@
 
  If you want to connect the board in the same device using the USB-OTG port you will just need a TCP bridge application. I added bellow some free and paid options.
 
+![Image](Johnny-Five-Android-Termux.PNG) 
+
  ## Requirements
 
  ### Android apps
