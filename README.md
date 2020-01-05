@@ -25,7 +25,7 @@
  * [COMbyTCP](https://sourceforge.net/projects/combytcp/) to use the PC as server (optional)
 
  ### Termux packages
- * node-lte
+ * nodejs-lts
  * python
  * clang
  * make
