@@ -3,7 +3,7 @@
 
  Based on the code snippets from [Luis Montes](https://github.com/monteslu).
 
- ## Introduction
+## Introduction
 
  Johnny-Five is an outstanding library that allows the remote control of Arduino or other IoT boards using Node.js scripts running in virtually in any system.
 
@@ -15,28 +15,29 @@
 
 ![Image](Johnny-Five-Android-Termux.PNG) 
 
- ## Requirements
+## Requirements
 
- ### Android apps
+### Android apps
  * [Termux](https://termux.com/)
  * [ServerBridgeX](https://play.google.com/store/apps/details?id=com.cidtepole.serverbridge&hl=en) or [UART-TCP/IP Bridge](https://play.google.com/store/apps/details?id=com.t2techhub.iot.uarttcpbridge&hl=en) if the board is connected via USB-OTG
 
- ### PC apps
+### PC apps
  * [Bitvise SSH client](https://www.bitvise.com/ssh-client-download) (optional to access the Android Termux terminal)
  * [Arduino IDE](https://www.arduino.cc/en/Main/Software) to program the Arduino board with the Firmata sketch
  * [COMbyTCP](https://sourceforge.net/projects/combytcp/) to use the PC as server (optional)
 
- ### Termux packages
+### Termux packages
  * nodejs-lts
  * python
  * clang
  * make
  * [openssh](https://wiki.termux.com/wiki/Remote_Access) (optional to operate the device from a PC)
 
- ## Installation
+## Installation
  1. Install the Firmata sketch in your Arduino/IoT board. Detailed instructions can be found [in the Johnny-Five platform pages](http://johnny-five.io/platform-support/).
  2. Install the Termux packages using the command *pkg install* followed by the name of each one of the packages.
- 3. Download the *index.js* and *package.json* to a directory in your Termux file system.
+ 3. Download the *index.js* and *package.json* to a directory in your Termux file system or run:
+ *npm -i johnny-five-android-termux*
  4. Run the command *npm install* from the same folder where the previous files were placed.
  5. Edit the *index.js* file and configure for your TCP-Serial Server host and port.
  6. Test the script running *node index.js* from the same directory.
