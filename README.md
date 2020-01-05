@@ -29,7 +29,7 @@
  * python
  * clang
  * make
- * [openssh](https://wiki.termux.com/wiki/Remote_Access) (optional to make your life easy)
+ * [openssh](https://wiki.termux.com/wiki/Remote_Access) (optional to operate the device from a PC)
 
  ## Installation
  1. Install the Firmata sketch in your Arduino/IoT board. Detailed instructions can be found [in the Johnny-Five platform pages](http://johnny-five.io/platform-support/).
