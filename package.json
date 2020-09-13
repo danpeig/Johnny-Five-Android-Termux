@@ -1,6 +1,6 @@
 {
   "name": "johnny-five-android-termux",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Johnny-Five TCP client for Android devices running Termux.",
   "main": "index.js",
   "scripts": {

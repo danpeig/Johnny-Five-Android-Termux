@@ -36,8 +36,7 @@
 ## Installation
  1. Install the Firmata sketch in your Arduino/IoT board. Detailed instructions can be found [in the Johnny-Five platform pages](http://johnny-five.io/platform-support/).
  2. Install the Termux packages using the command *pkg install* followed by the name of each one of the packages.
- 3. Download the *index.js* and *package.json* to a directory in your Termux file system or run:
- *npm install johnny-five-android-termux*
+ 3. Download the *index.js* and *package.json* to a directory in your Termux file system
  4. Run the command *npm install* from the same folder where the previous files were placed.
  5. Edit the *index.js* file and configure for your TCP-Serial Server host and port.
  6. Test the script running *node index.js* from the same directory.
