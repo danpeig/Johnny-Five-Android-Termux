@@ -15,6 +15,9 @@
 
 ![Image](Johnny-Five-Android-Termux.PNG) 
 
+## Release notes
+* Version 1.0.6 - Tested on Android with Termux 0.117 (F-Droid) and Node 14.15.4 (August 2021)
+
 ## Requirements
 
 ### Android apps
