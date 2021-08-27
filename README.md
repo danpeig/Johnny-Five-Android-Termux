@@ -35,11 +35,17 @@
 
 ## Installation
  1. Install the Firmata sketch in your Arduino/IoT board. Detailed instructions can be found [in the Johnny-Five platform pages](http://johnny-five.io/platform-support/).
- 2. Install the Termux packages using the command *pkg install* followed by the name of each one of the packages.
- 3. Download the *index.js* and *package.json* to a directory in your Termux file system
- 4. Run the command *npm install* from the same folder where the previous files were placed.
- 5. Edit the *index.js* file and configure for your TCP-Serial Server host and port.
- 6. Test the script running *node index.js* from the same directory.
+ 2. Install the Termux packages using the command *pkg install* followed by the name of each one of the packages:
+ ```
+ pkg install nodejs
+ pkg install python
+ pkg install clang
+ pkg install make
+ pkg install openssh
+ ```
+ 3. Run ```npm install johnny-five-android-termux``` from a blank directory where you want the script to be installed
+ 4. Edit the *index.js* file and configure for your TCP-Serial Server host and port. Note that inside this file you have a section to include your Johnny-Five code. The default script is the famous blinking led.
+ 5. Test the script running ```node index.js``` from the same directory. If the TCP bridge is working, the script will be able to connect. If the Arduino board (with the Firmata firmware) is connected via USB to the phone and the USB-TCP bridge software is working, the led will start to blink.
 
 ## Node-Red integration
 Node-Red, the ultimate IoT interface can be run from Termux and the following [tutorial in my web page](https://www.danbp.org/p/en/node/141) explains how to make use of Johnny-Five library in this framework.
@@ -61,6 +67,6 @@ Please make sure that your Android is not running a VPN or a Firewall.
 After the installation you can remove the python, clang and make packages.
 
 ## Troubleshooting
-1. Install Node.js in your Laptop/Desktop and run exactly the same installation procedures above.
+1. Install Node.js in your Laptop/Desktop and run exactly the same installation procedures above. Depending on your OS you will need additional compiling tools to setup the serial interface module.
 2. Run the TCP server (like the COMbyTCP) in the same computer and try to connect between the board and the local installation of this script. If it does not work, you might have a problem with the Firmata installation in the Arduino board.
 3. If the connection works, keep the TCP server running in the computer and try to connect from the mobile device. If does not work you have a connectivity problem in the Android device.

@@ -1,6 +1,6 @@
 {
   "name": "johnny-five-android-termux",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Johnny-Five TCP client for Android devices running Termux.",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Daniel Brooke Peig",
   "license": "MIT",
   "dependencies": {
-    "firmata": "^2.2.0",
-    "johnny-five": "^2.0.0",
+    "firmata": "^2.3.0",
+    "johnny-five": "^2.1.0",
     "mock-require": "^3.0.3",
     "net": "^1.0.2",
-    "serialport": "^9.0.1"
+    "serialport": "^9.2.0"
   }
 }
